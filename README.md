@@ -24,4 +24,4 @@ The website is deployed with HTTPS, delivered through Amazon CloudFront, and con
 
 ## Live Website
 
-[https://abscloud.dev] (https//abscloud.dev)
+https://abscloud.dev
