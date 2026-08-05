@@ -6,7 +6,7 @@ This folder contains key screenshots from the deployment of Project 1.
 
 ## 1. Live Website
 
-![Live Website](01-Live-Website.jpg)
+![Live Website](01-Live-Website.png)
 
 Final deployed website accessible through the custom domain using HTTPS.
 
