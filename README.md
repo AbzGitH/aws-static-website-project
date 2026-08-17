@@ -42,7 +42,7 @@ Amazon S3 (Static Website)
 - Custom domain configuration
 - Git and GitHub version control
 
-### Challenges & Troubleshooting
+## Challenges & Troubleshooting
 
 During deployment I encountered several real-world issues that required troubleshooting.
 
@@ -75,3 +75,4 @@ Supporting deployment documentation and evidence are available below.
 
 - [Deployment Screenshots](screenshots/) – Key stages of the AWS deployment and final live website.
 - [Architecture Diagram](diagrams/) – Visual representation of the AWS solution architecture.
+- [Troubleshooting Report](docs/troubleshooting.md) – Investigation into the GitHub image-rendering issue and the steps taken to diagnose it.
