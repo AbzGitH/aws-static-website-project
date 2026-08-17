@@ -57,7 +57,9 @@ All local testing confirmed that:
 - Image files were valid.
 - Local rendering within Visual Studio Code worked correctly.
 
-After systematically eliminating repository, configuration, browser and image-related causes, the remaining evidence indicated that the rendering issue was external to the project. During the investigation, GitHub reported active platform incidents affecting repository services. Based on the investigation, the issue was determined to be unrelated to the project implementation.
+After systematically eliminating repository, configuration, browser and image-related causes, the remaining evidence suggested that the issue was likely related to a temporary GitHub platform incident occurring at the same time.
+
+Although the repository and images were correctly stored and accessible, the images continued to fail to render within the GitHub README at the time this report was completed. Therefore, a direct causal relationship between the GitHub platform incident and the rendering issue could not be conclusively established.
 
 ---
 
