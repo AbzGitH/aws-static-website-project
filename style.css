@@ -52,3 +52,89 @@ section a:hover {
 section h3 {
   margin-top: 1.5rem;
 }
+
+/* Portfolio project descriptions */
+.projects-section ol > li {
+    margin-bottom: 20px;
+}
+.projects-section li > p {
+    margin: 6px 0;
+}
+.projects-section li > p:first-of-type {
+    color: #cbd5e1;
+}
+.projects-section li > p:last-of-type {
+    color: #e2e8f0;
+}
+.projects-section li > p strong {
+    color: #9fd0e3;
+    font-weight: 600;
+}
+
+/* Technical experience */
+.experience-panel {
+    background-color: #29364a;
+    border: 1px solid #40516a;
+    border-radius: 8px;
+    padding: 18px 20px;
+}
+.experience-group h3 {
+    color: #f8fafc;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 6px;
+}
+.experience-group p {
+    color: #cbd5e1;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.6;
+}
+.experience-group + .experience-group {
+    border-top: 1px solid #40516a;
+    margin-top: 16px;
+    padding-top: 16px;
+}
+
+
+/* Tablet responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .projects-section ol {
+        padding-left: 22px;
+    }
+
+    .experience-panel {
+        padding: 14px;
+    }
+
+    .experience-group p {
+        overflow-wrap: anywhere;
+    }
+}
