@@ -69,6 +69,15 @@ This project reinforced several important cloud engineering practices:
 
 https://abscloud.dev
 
+## Website Updates & Deployment
+
+Website updates use a manual deployment process: local changes
+are committed to GitHub, uploaded to Amazon S3 and published
+through CloudFront cache invalidation.
+
+See the [Website Deployment Guide](docs/deployment.md)
+for the complete CLI commands, verification and troubleshooting steps.
+
 ## Project Documentation
 
 Supporting deployment documentation and evidence are available below.
